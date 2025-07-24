@@ -50,3 +50,5 @@ venv.bak
 
 # Azure specific
 .azure/
+
+papers/*

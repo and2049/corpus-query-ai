@@ -1,0 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+arxiv
+transformers
+Pillow
+torch==2.7.1+cu128
