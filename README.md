@@ -12,14 +12,14 @@ A multi-modal AI research assistant designed to "converse" with scientific paper
 
 ## Technology Stack
 
-* **Vision-Language Model (VLM):** [To be decided - e.g., LLaVA]
-* **Core LLM:** [To be decided - e.g., Llama 3 8B]
-* **Embedding Model:** [To be decided - e.g., Nomic Embed]
-* **Frontend:** [To be decided - e.g., Streamlit]
+* **Vision-Language Model (VLM):** LLaVA
+* **Core LLM:** Llama 3 8B
+* **Embedding Model:** Nomic Embed
+* **Frontend:** Streamlit
 * **Cloud Provider:** Azure
-    * **Orchestration:** [To be decided - e.g., Azure Functions]
-    * **Vector DB:** [To be decided - e.g., Azure AI Search]
-    * **Compute:** [To be decided - e.g., Azure Machine Learning Endpoints]
+    * **Orchestration:** Azure Functions
+    * **Vector DB:** Azure AI Search
+    * **Compute:** Azure Machine Learning Endpoints
     * **Storage:** Azure Blob Storage
 
 ---
