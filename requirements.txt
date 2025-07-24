@@ -3,3 +3,4 @@ arxiv
 transformers
 Pillow
 torch==2.7.1+cu128
+requests
