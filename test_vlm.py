@@ -26,7 +26,7 @@ image_file = "papers/sample_figure.png"
 raw_image = Image.open(image_file).convert("RGB")
 
 prompt = "USER: <image>\nWhat is this graph showing? ASSISTANT:"
-inputs = processor(prompt, images=raw_image, return_tensors="pt").to(device)
+inputs = processor(text=prompt, images=raw_image, return_tensors="pt").to(device)
 
 output = model.generate(**inputs, max_new_tokens=200)
 description = processor.decode(output[0][2:], skip_special_tokens=True)
